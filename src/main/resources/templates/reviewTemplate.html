@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+    <title th:text="${reviewModel.title}"></title>
+    <link rel="stylesheet" href="styles/ReviewStyles.css">
+</head>
+<div class="container">
+    <header class="product__heading">
+        <h1 class="product__name" th:text="${reviewModel.title}"></h1>
+    </header>
+    <article class="image__wrapper">
+        <img class="product__image" th:src="${reviewModel.imageUrl}" alt="Reel image">
+    </article>
+<section class="product__review">
+        <h2 class="category" th:text="${reviewModel.reviewCategory}">
+        </h2>
+    <h2 class="content__heading" th:text="${reviewModel.content}">
+    </h2>
+    <h3 class="review__description" th:text="${reviewModel.description}">
+    </h3>
+    <h3 class="rating">
+        <span th:text="${reviewModel.rating}"></span>
+    </h3>
+    <figure >
+        <a class="home__button" href="/reviews">Back</a>
+    </figure>
+</section>
+<footer>
+    <section class="copyright">
+        &copy Zachary D. Martin 2022
+    </section>
+</footer>
+
+</div>
+</html>

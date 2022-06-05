@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 1;
+    padding: 0;
+}
+
+html{
+    color: #000000;
+    font: 18px/1.618 sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    background-color:#EC8F7B;
+    margin: 1rem auto;
+    max-width: 100rem;
+    width: 90%;
+    box-shadow: 10px 10px;
+}
+.header {
+    display: inline-block;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+}
+
+h1{
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 60px;
+    border: white 5px solid;
+    background: brown;
+}
+.image__wrapper{
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.fishing {
+    height: auto;
+    max-width:30rem;
+    border-radius: 60px;
+    border: white 5px solid;
+}
+
+.reviews__heading {
+    display:flex;
+    justify-content:center;
+    margin-bottom:30px;
+
+}
+
+span {
+    font-size: 25px;
+    border-radius: 60px;
+    border: white 5px solid;
+    padding:15px;
+    background: brown;
+}
+
+h3 {
+    display:flex;
+    justify-content:center;
+    font-size:15px
+}
+
+.reviews__list {
+    list-style-type: none;
+    text-align:center;
+}
+
+.product {
+    padding:10px;
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+}
+
+.product:hover {
+    padding: 5px;
+    background-color: brown;
+    border: white 5px solid;
+    border-radius: 20px;;
+    transition: 1s;
+}
+
