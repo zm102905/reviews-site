@@ -28,7 +28,7 @@ h1{
     font-size: 30px;
     padding: 15px;
     border-radius: 60px;
-    border: white 5px solid;
+    border: #4739F0 5px solid;
     background: #FFBF00;
 }
 .image__wrapper{
@@ -42,7 +42,7 @@ h1{
     height: auto;
     max-width:30rem;
     border-radius: 60px;
-    border: white 5px solid;
+    border: #4739F0 5px solid;
 }
 
 .reviews__heading {
@@ -55,7 +55,7 @@ h1{
 span {
     font-size: 25px;
     border-radius: 60px;
-    border: white 5px solid;
+    border: #4739F0 5px solid;
     padding:15px;
     background: #FFBF00;
 }
@@ -81,7 +81,7 @@ h3 {
 .product:hover {
     padding: 5px;
     background-color: #FFBF00;
-    border: white 5px solid;
+    border: #4739F0 5px solid;
     border-radius: 20px;;
     transition: 1s;
 }
