@@ -11,7 +11,7 @@ html{
 }
 
 .container {
-    background-color:#EC8F7B;
+    background-color:#40E0D0;
     margin: 1rem auto;
     max-width: 100rem;
     width: 90%;
@@ -29,7 +29,7 @@ h1{
     padding: 15px;
     border-radius: 60px;
     border: white 5px solid;
-    background: brown;
+    background: #FFBF00;
 }
 .image__wrapper{
     display:flex;
@@ -57,7 +57,7 @@ span {
     border-radius: 60px;
     border: white 5px solid;
     padding:15px;
-    background: brown;
+    background: #FFBF00;
 }
 
 h3 {
@@ -80,7 +80,7 @@ h3 {
 
 .product:hover {
     padding: 5px;
-    background-color: brown;
+    background-color: #FFBF00;
     border: white 5px solid;
     border-radius: 20px;;
     transition: 1s;

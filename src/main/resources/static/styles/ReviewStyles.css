@@ -11,7 +11,7 @@ html{
 }
 
 .container {
-    background-color:#EC8F7B;
+    background-color:#40E0D0;
     margin: 1rem auto;
     max-width: 100rem;
     width: 90%;
@@ -28,7 +28,7 @@ header {
     padding: 15px;
     border-radius: 60px;
     border: white 5px solid;
-    background: brown;
+    background: #FFBF00;
 }
 
 .image__wrapper{
@@ -59,7 +59,7 @@ header {
     padding: 15px;
     border-radius: 60px;
     border: white 5px solid;
-    background: brown;
+    background: #FFBF00;
 }
 
 .content__heading {
@@ -70,7 +70,7 @@ header {
     padding: 15px;
     border-radius: 60px;
     border: white 5px solid;
-    background: brown;
+    background: #FFBF00;
 }
 
 .review__description {
@@ -79,7 +79,7 @@ header {
     padding: 15px;
     border-radius: 60px;
     border: white 5px solid;
-    background: brown;
+    background: #FFBF00;
     max-width:20rem;
     text-align:center;
 }
@@ -90,7 +90,7 @@ header {
     padding: 15px;
     border-radius: 60px;
     border: white 5px solid;
-    background: brown;
+    background: #FFBF00;
 }
 
 .home__button{
@@ -105,7 +105,7 @@ header {
     padding:10px;
     border-radius: 60px;
     border: white 5px solid;
-    background: brown;
+    background: #FFBF00;
     transition: 1s;
 }
 
