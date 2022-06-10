@@ -1,0 +1,2 @@
+# reviews-site
+This is a spring boot/MVC web app/site, that categorizes and displays reviews of popular budget to mid-range freshwater spinning reels. The reviews/home page displays a list of all available reviews, and provides links to each individual product review. If you click on a product, it takes you to a review page, where it provides the product name, category, descrtiption, a photo, and a rating. There is a back button at the bottom, linking back to the reviews/home page. 
